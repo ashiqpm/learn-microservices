@@ -19,4 +19,45 @@ git add newfile.txt
 commit changes in local-repo
 git commit -m "help file for git hub"
 
+add all files
+git add -A
+
+commit all changes in local-rep
+git commit -a -m "add sts notes also"
+
+git status
+git log
+
+
+
+parallel development or non-linea development
+branching
+
+git branch firstbranch
+
+move to new branch
+
+git checkout firstbranch
+
+list files
+ls
+
+git checkout master
+ls
+
+merger changes in firstbranch to master branch
+merger will take place to current branch
+
+git checkout master
+git merge firstbranch
+
+git pull vs fetch
+pull add files to master branch.  after fetch, have to merge
+
+rebasing - commit history to master branch node
+cleaner project history
+
+
+
+
 
