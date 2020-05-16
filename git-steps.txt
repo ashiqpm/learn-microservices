@@ -57,6 +57,37 @@ pull add files to master branch.  after fetch, have to merge
 rebasing - commit history to master branch node
 cleaner project history
 
+git checkout maser
+git rebase firstbranch
+
+upload all to remote central repository
+generate ssh key
+ssh-keygen
+
+
+create a new ssh key in github.com
+
+ssh -T git@github.com
+
+git push origin firstbranch
+
+
+reverting back
+git log
+copy commit # code
+git checkout  #code filename.txt
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
