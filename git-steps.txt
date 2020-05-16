@@ -10,3 +10,13 @@ git remote add origin "https://github.com/ashiqpm/learn-microservices.git"
 
 pull all filtes from remote-repo to local-repo
 git pull origin master
+
+create a newfile.txt in local-repo folder
+
+add this to local repository
+git add newfile.txt
+
+commit changes in local-repo
+git commit -m "help file for git hub"
+
+
