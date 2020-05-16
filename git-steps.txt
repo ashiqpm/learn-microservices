@@ -78,8 +78,12 @@ copy commit # code
 git checkout  #code filename.txt
 
 
+delete branch locally
+git branch -d branchname
 
-
+delete remotely
+git push <branch> --delete branchname
+git push origin --delete branchname
 
 
 
