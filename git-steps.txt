@@ -1,0 +1,12 @@
+create local repository folder repo-folder
+open git bash
+cd repo-folder
+
+initialize local repository
+git init    
+
+link with remote repository
+git remote add origin "https://github.com/ashiqpm/learn-microservices.git"
+
+pull all filtes from remote-repo to local-repo
+git pull origin master
