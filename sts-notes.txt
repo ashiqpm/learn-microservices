@@ -1,0 +1,74 @@
+check npm version
+> npm -v
+
+
+netstat -aon | find /i "port-no"
+taskkill /F /PID process-id
+
+update npm to latest version
+> npm install npm@latest -g
+https://start.spring.io/
+add dependency spring boot web
+
+
+now check Node version
+> node -v
+
+the easiest way to install n is through npm:
+> npm install -g n
+
+update Node
+sudo npm cache clean -f 
+sudo npm install -g n 
+sudo n stable 
+
+
+
+to build spring boot deploymnet
+ng build  --env=prod
+ng build --prod --c=dev
+
+
+mvn clean install
+
+npm update
+
+# "semantic-ui-css": "^2.2.12",
+
+ng serve
+ng serve --host 192.168.1.107
+
+uncomment WebSecurityConfig.config 
+.addFilterBefore(new CORSFilter(), ChannelProcessingFilter.class)
+
+
+constructor (http: HttpClient, router:Router) { 
+        super(http, 'http://localhost:8080/', router); 
+    }
+
+
+to build tomcat deployment
+ng build --base-href=/mahewa/ --env=prod
+
+ ng build --base-href=/labqc/ --prod
+
+
+comment 
+uncomment WebSecurityConfig.config 
+//.addFilterBefore(new CORSFilter(), ChannelProcessingFilter.class)
+
+
+constructor (http: HttpClient, router:Router) { 
+        super(http, 'http://localhost:8080/mahewa/', router); 
+    }
+
+
+angular   WebClientService  change url to /mahewa/
+		FinanceService
+
+
+netstat -a --n -r | find "8080"
+taskkill /PID <pid< /F
+
+
+http://www.jcombat.com/angular-5/deploying-spring-and-angular-application-on-the-same-server
